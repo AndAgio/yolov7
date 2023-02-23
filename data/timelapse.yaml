@@ -1,0 +1,8 @@
+download: bash ./scripts/get_timelapse_data.sh
+
+train: ./datasets/timelapse/train/images
+val: ./datasets/timelapse/valid/images
+test: ./datasets/timelapse/test/images
+
+nc: 9
+names: ['Aerial platforms', 'Cars', 'Face', 'Helmets', 'Orange-yellow protective jackets', 'Person', 'Trucks', 'Vehicle-s plates', 'excavator']

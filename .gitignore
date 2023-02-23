@@ -1,3 +1,6 @@
+datasets
+pretrained_yolov7s
+
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
 *.jpg
 *.jpeg
